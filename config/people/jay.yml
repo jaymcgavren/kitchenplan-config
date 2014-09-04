@@ -3,11 +3,74 @@ groups:
 recipes:
     mac_os_x:
         - osxdefaults::set_computer_name
+        - osxdefaults::disable_front_row
+        - osxdefaults::disable_natural_scrolling
+        - osxdefaults::dock_automatically_hide_and_show_the_dock
+        - osxdefaults::dock_do_not_animate_opening_applications_from_the_dock
+        - osxdefaults::dock_position_the_dock_on_the_left_side
+        - osxdefaults::dock_remove_the_auto-hiding_dock_delay
+        - osxdefaults::enable_assistive_devices
+        - osxdefaults::enable_full_keyboard_access_for_all_controls
+        - osxdefaults::enable_safari_debug_menu
+        - osxdefaults::enable_standard_function_keys
+        - osxdefaults::expand_save_panel_by_default
+        - osxdefaults::finder_allow_text_selection_in_quick_look
+        - osxdefaults::finder_disable_the_warning_when_changing_a_file_extension
+        - osxdefaults::finder_display_full_path
+        - osxdefaults::finder_search_the_current_folder_by_default
+        - osxdefaults::finder_show_all_files
+        - osxdefaults::finder_show_status_bar
+        - osxdefaults::finder_small_sidebar_icon_size
+        - osxdefaults::menu_add_battery_percentage
+        - osxdefaults::menu_show_clock_with_date
+        - osxdefaults::prevent_time_machine_from_prompting_to_use_new_hard_drives_as_backup_volume
+        - osxdefaults::set_a_blazingly_fast_keyboard_repeat_rate
+        - osxdefaults::set_desktop_picture
+        - osxdefaults::set_screensaver_preferences
+        - osxdefaults::turn_off_keyboard_illumination_when_computer_is_not_used_for_5_minutes
+        # - osxdefaults::use_name_and_password_on_loginscreen
+
 attributes:
     osxdefaults:
-        computername: MyComputerName
+        computername: thea
+        desktop_picture: https://ia600401.us.archive.org/19/items/RubyOnAcidWallpapers2009-10-27/00791.jpg
+        finder:
+            preferred_view_style: Nlsv
+    authorization:
+        sudo:
+            users:
+                - jay
+            passwordless: true
+            include_sudoers_d: true
+    git:
+        name: Jay McGavren
+        # email: me@example.com
     homebrewalt:
         apps:
             - git-extras
         cask_apps:
-            - sourcetree
+            - adobe-reader
+            - amazon-music
+            - anki
+            - audacity
+            - bettertouchtool
+            - celestia
+            - desmume
+            - dosbox
+            - dropbox
+            # - dwarf-fortress
+            - electric-sheep
+            - emacs
+            - gimp
+            - gitx
+            - google-drive
+            - google-earth
+            - handbrake
+            - handbrakecli
+            - hipchat
+            - horndis
+            - jumpcut
+            - kid3
+            - libreoffice
+            - onepassword
+            - vagrant
