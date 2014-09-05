@@ -334,7 +334,7 @@ attributes:
             # - macfusion
             # - macgdbp
             - mame
-            - menumeters
+            # - menumeters # No recipe available.
             - minecraft
             - nethackcocoa
             - node
