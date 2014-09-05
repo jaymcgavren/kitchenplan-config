@@ -47,7 +47,258 @@ attributes:
         # email: me@example.com
     homebrewalt:
         apps:
+            # - ack
+            # - android-ndk
+            # - android-platform-tools
+            # - android-sdk
+            # - apktool
+            # - app-engine-java-sdk
+            # - ascii
+            # - autojump
+            # - automake
+            # - autotrace
+            # - aws-cfn-tools
+            # - aws-cloudsearch
+            # - aws-elasticache
+            # - aws-elasticbeanstalk
+            # - aws-sns-cli
+            # - awscli
+            # - bats
+            # - bgrep
+            # - boot2docker
+            # - box2d
+            # - bullet
+            # - cdrdao
+            # - cdrtools
+            # - cheat
+            # - chrome-cli
+            # - chromedriver
+            # - clisp
+            # - clojurescript
+            # - cmake
+            # - colordiff
+            - cowsay
+            - ctags
+            - curl
+            # - dart
+            # - dict
+            - docker
+            - dos2unix
+            # - elixir-build
+            # - elixir
+            # - emacs-clang-complete-async
+            # - emacs # Duplicate from cask-apps?
+            # - erlang
+            # - exif
+            # - exiftags
+            # - exiftool
+            - ffmpeg
+            # - findbugs
+            # - findutils
+            # - flac
+            - fortune
+            # - fsh
+            # - gawk
+            # - gcc
+            # - getmail
+            # - ghostscript
+            - gist
+            # - gistit
+            # - git-annex
+            # - git-archive-all
+            # - git-cal
+            # - git-cola
+            # - git-crypt
+            # - git-encrypt
             - git-extras
+            # - git-flow-avh
+            # - git-flow-clone
+            # - git-flow
+            # - git-ftp
+            # - git-gerrit
+            # - git-imerge
+            # - git-integration
+            # - git-multipush
+            # - git-now
+            # - git-number
+            # - git-open
+            # - git-sh
+            # - git-ssh
+            # - git-tf
+            # - git-tracker
+            # - git-url-sub
+            - git
+            # - gitbucket
+            # - giter8
+            # - github-release
+            # - gitslave
+            # - gnu-sed
+            # - gnu-smalltalk
+            # - gnu-tar
+            # - gnu-which
+            # - gnupg-pkcs11-scd
+            # - gnupg
+            # - gnupg2
+            # - gnuplot
+            # - go-app-engine-32
+            # - go-app-engine-64
+            # - go
+            # - google-app-engine
+            # - google-perftools
+            # - gosu
+            # - graphviz
+            # - gstreamer
+            # - gtk+
+            # - gtk+3
+            # - gtk-chtheme
+            # - gtk-doc
+            # - gtk-engines
+            # - gtk-gnutella
+            # - gtk-murrine-engine
+            # - gtkdatabox
+            # - gtkglarea
+            # - gtkglext
+            # - gtkmm
+            # - gtkmm3
+            # - gtkwave
+            # - haproxy
+            # - haskell-platform
+            # - horndis # Duplicate from cask-apps?
+            # - hugo
+            # - id3lib
+            # - id3tool
+            # - id3v2
+            # - imagemagick
+            # - inkscape
+            # - jenkins
+            # - jpeg-turbo
+            # - jpeg
+            # - jpeginfo
+            # - jpegoptim
+            # - jruby
+            # - libav
+            # - libdvdcss
+            # - libdvdnav
+            # - libdvdread
+            # - libgit2
+            # - libid3tag
+            # - libmemcached
+            # - libmp3splt
+            # - libmpeg2
+            # - libmusicbrainz
+            # - liboauth
+            # - libogg
+            # - libquicktime
+            # - libraw
+            # - librsync
+            # - libsass
+            # - libssh
+            # - libssh2
+            # - libusb-compat
+            # - libusb
+            # - libvorbis
+            # - libxml2
+            # - libxslt
+            # - libyaml
+            # - lighttpd
+            # - lolcode
+            # - lorem
+            # - lua
+            # - luabind
+            # - luajit
+            # - luarocks
+            - lynx
+            # - memcache-top
+            - memcached
+            # - memcacheq
+            # - memtester
+            # - midicsv
+            # - mp3info
+            # - mp3splt
+            # - mp4v2
+            # - mysql++
+            # - mysql-cluster
+            # - mysql-connector-c++
+            # - mysql-connector-c
+            # - mysql-connector-odbc
+            # - mysql-proxy
+            # - mysql-search-replace
+            - mysql
+            # - mysqlreport
+            - netcat
+            # - nginx
+            # - ngrep
+            # - node
+            # - nodebrew
+            # - nodenv
+            # - ntfs-3g
+            # - objc-run
+            # - oniguruma
+            # - osxfuse
+            - phantomjs
+            # - pow
+            # - psutils
+            # - python
+            # - python3
+            # - rbenv-aliases
+            # - rbenv-binstubs
+            # - rbenv-bundler
+            # - rbenv-communal-gems
+            # - rbenv-ctags
+            # - rbenv-default-gems
+            # - rbenv-gem-rehash
+            # - rbenv-gemset
+            # - rbenv-readline
+            # - rbenv-use
+            # - rbenv-vars
+            # - rbenv-whatis
+            # - rbenv
+            # - redis
+            # - rename
+            # - renameutils
+            # - riak
+            # - ruby-build
+            # - ruby-install
+            # - ruby
+            # - runit
+            # - rush
+            # - sdl
+            # - sdl2
+            # - sdl2_gfx
+            # - sdl2_image
+            # - sdl2_mixer
+            # - sdl2_net
+            # - sdl2_ttf
+            # - sdl_gfx
+            # - sdl_image
+            # - sdl_mixer
+            # - sdl_net
+            # - sdl_rtf
+            # - sdl_sound
+            # - sdl_ttf
+            # - tcptrace
+            # - tcptraceroute
+            # - the_platinum_searcher
+            - the_silver_searcher
+            - tmux
+            # - tokyo-cabinet
+            # - tor
+            - ttyrec
+            # - vim
+            # - wakeonlan
+            - watch
+            - wget
+            # - wine
+            # - wireshark
+            # - wordplay
+            # - youtube-dl
+            # - zeromq
+            # - zsh-completions
+            # - zsh-history-substring-search
+            # - zsh-lovers
+            # - zsh-syntax-highlighting
+            # - zsh
+            # - zshdb
         cask_apps:
             - adobe-reader
             - amazon-music
