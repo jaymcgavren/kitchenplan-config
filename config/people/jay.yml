@@ -63,7 +63,7 @@ attributes:
             # - aws-elasticbeanstalk
             # - aws-sns-cli
             # - awscli
-            # - bats
+            - bats
             # - bgrep
             # - boot2docker
             # - box2d
@@ -239,7 +239,7 @@ attributes:
             # - pow
             # - psutils
             # - python
-            # - python3
+            - python3
             # - rbenv-aliases
             # - rbenv-binstubs
             # - rbenv-bundler
@@ -253,7 +253,7 @@ attributes:
             # - rbenv-vars
             # - rbenv-whatis
             # - rbenv
-            # - redis
+            - redis
             # - rename
             # - renameutils
             # - riak
