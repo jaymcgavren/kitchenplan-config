@@ -212,7 +212,6 @@ attributes:
             - memcached
             # - memcacheq
             # - memtester
-            - menumeters
             # - midicsv
             # - mp3info
             # - mp3splt
@@ -335,6 +334,7 @@ attributes:
             # - macfusion
             # - macgdbp
             - mame
+            - menumeters
             - minecraft
             - nethackcocoa
             - node
