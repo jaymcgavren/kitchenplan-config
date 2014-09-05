@@ -13,7 +13,7 @@ recipes:                                       # Configs are parsed and every li
         # - osxdefaults::disable_resume_system-wide
         - osxdefaults::disable_gatekeeper
         - osxdefaults::enable_remote_desktop
-        - osxdefaults::enable_remote_login
+        # - osxdefaults::enable_remote_login
         - osxdefaults::save_screenshots_in_png_format
         # - osxdefaults::save_screenshots_to_the_desktop
 attributes:
