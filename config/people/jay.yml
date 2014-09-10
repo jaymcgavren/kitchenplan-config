@@ -282,6 +282,7 @@ attributes:
             # - the_platinum_searcher
             - the_silver_searcher
             - tmux
+            - todo-txt
             # - tokyo-cabinet
             # - tor
             - ttyrec
